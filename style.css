@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3E4244;
+    max-width: 1536px;
+    width: 900px; 
+    text-align: left; 
+    margin: 0px auto;
+}
+
+
+.naamNav{
+    position: relative;
+    color: #5C7BB9;
+    font-family: Inter;
+    font-size: 39.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 8px;
+}
+
+.navbar-nav {
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #547CBE; /* Your custom color */
+    font-family: Inter;
+    font-size: 29.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #547CBE; /* Your custom color */
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.PJ{
+    position: relative;
+    left: 0;
+    color: #6FC0EC;
+    font-family: didot-medium;
+    font-size: 280.28px;
+    font-style: normal;
+    font-weight: 400;
+    z-index: 2;
+    line-height: 0.9;
+}
+
+.First{
+    max-width: 1400px;
+}
+
+
+
+.imageContainer{
+    position: relative;
+    right: 300px;
+    top: 380px
+}
+
+.Sun{
+    position: absolute;
+    top: 360px;
+    margin-left: 900px;
+}
+
+.text1{
+    position: absolute;
+    width: 529.71px;
+    top: 680px;
+    height: 132.74px;
+    flex-shrink: 0;
+    color: #547CBE;
+    font-size: 22.4px;
+    letter-spacing: small;
+}
+
+.description{
+    margin-left: 25px;
+    letter-spacing: small;
+    line-height: 1.5rem;
+}
+
+.empty{
+    height: 500px;
+}
+
+.empty2{
+    height: 650px;
+}
+
+.fwd{
+    position: absolute;
+    left: 0;
+    background-color: #A8A8AC;
+    width: 100%;
+    height: 599px;
+}
+
+.sqa{
+    margin-top: 15px;
+}
+
+.fwd {
+    background-color: #7B7D81;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.collumn1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon-block {
+    position: relative;
+    width: 131px; /* Match SVG size */
+    height: 167px; /* Match SVG size */
+    margin-bottom: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-content {
+    padding-left: 30px;
+    margin: 30px;
+}
+
+.text-content p {
+    margin: 40px;
+    margin-left: 0;
+    text-decoration: none !important;
+    color: #3F4244 !important;	
+    position: relative; /* Make sure this is set to position text correctly */
+    display: inline-block; /* Keep it as inline-block */
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: inset 0 -0.3em 0 0  #6FC0EC;
+}
+
+.text-content p:hover {
+    color: #547CBE;
+}
+
+.tc{
+    color: #3E4244; 
+    text-decoration: none;
+}
+
+.tc:hover{
+    color: #3E4244; 
+    text-decoration: none;
+}
+
+.iconCam{
+    position: relative;
+}
+
+.footer{
+    height: 154px;
+    flex-shrink: 0;
+}
+
+.vid{
+    position: relative;
+    top: 9px;
+    left: 3px;
+}
+
+.cam2{
+    position: relative;
+    top: 20px;
+}
+
+.select{
+    position: absolute;
+    top: 30px;
+    left: 24px;
+}
+
+.sleeve{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.erectangle{
+    position: relative;
+    bottom: 12px;
+    right: 30px;
+}
+
+.kook{
+    position: absolute;
+    top: 110px;
+    right: 7px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E4244;
+    color: #5C7BB9;
+    width: 100%;
+    height: 120px;
+}
+
+#id {
+    font-family: Inter;
+    font-size: 39.72px;
+    font-weight: 400;
+    color: #5C7BB9;
+}
+
+.in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lik{
+    margin: 20px;
+}
+
+/* hieronder grafische ontwerpen */
+.sun{
+    position: relative;
+    left: 730px;
+    bottom: 200px;
+
+}
+
+#page-header{
+    margin-top: 40px;
+    color: #4DC2F1;
+    font-style: normal;
+    font-size: 200px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.Bottom{
+    height: 420px !important;
+}
+
+.also{
+    position: relative;
+    max-width: 529.71px;
+    color: #547CBE;
+    font-size: 22.4px;
+    letter-spacing: small;
+    bottom: 200px;
+    font-size: 30px4;
+}
+
+.img1{
+    width: 568.4px;
+    height: 405.42px;
+}
+
+.img2{
+    width: 330px;
+}
+
+.imageLi {
+    margin-bottom: 80px;
+    display: flex;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding from ul */
+    gap: 50px;
+    justify-content: center;
+}
+
+.longg{
+    width: 517.08px;
+    height: 1034.16px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.img3{
+    margin-top: 30px;
+    width: 505.8px;
+    height: 335.4px;
+}
+
+.img4{
+    margin-top: 30px;
+    width: 498.56px;
+    height: 381.3px;
+}
+
+.empty3{
+    height: 440px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .imageLi {
+        display: block; /* Stack images vertically */
+    }
+
+    .imageLi li {
+        margin-bottom: 20px; /* Add spacing between stacked images */
+    }
+
+    .img1, .img2, .img3, .img4, .longg {
+        width: 100%; 
+    }
+
+
+}
+
+/* hieronder video */
+.sun2{
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+}
+
+.also2{
+    position: relative;
+    max-width: 529.71px;
+    color: #547CBE;
+    font-size: 22.4px;
+    letter-spacing: small;
+    bottom: 100px;
+    font-size: 30px4;
+}
+
+
+.sun3{
+    position: relative;
+    left: 780px;
+    bottom: 170px;
+}
+
+/* hieronder fotos */
+
+.image-item {
+    margin: 30px;
+}
+
+.arrow1{
+    top: 30px;
+    position: relative;
+    float: right !important;
+    z-index: 10;
+    margin-right: 60px;
+}
+
+.arrowtxt{
+    font-size: 80px;
+    color: #4DC2F1;
+    text-align: right;
+    margin-right: 50px;
+    height: 130px;
+    font-family: didot-medium;
+}
